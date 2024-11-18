@@ -1,0 +1,12 @@
+---
+- provider_name: Gravatar
+  provider_url: https://www.gravatar.com/
+  endpoints:
+  - schemes:
+    - https://gravatar.com/*
+    - https://*.gravatar.com/*
+    url: api.gravatar.com/v3/oembed
+    discovery: true
+    example_urls:
+    - https://api.gravatar.com/v3/oembed?url=https%3A%2F%2Fgravatar.com%2Fmatt
+...
